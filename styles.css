@@ -64,7 +64,7 @@
 body {
     image-rendering: pixelated;
 
-    font-family: 'munro';
+    font-family: 'munro', Verdana, Geneva, Tahoma, sans-serif;
 
     color: var(--white);
 
@@ -87,7 +87,7 @@ h1 {
 }
 
 small {
-    font-family: 'munro small';
+    font-family: 'munro small', Verdana, Geneva, Tahoma, sans-serif;
 }
 
 strong  {
@@ -194,7 +194,7 @@ a.dropdown-item.disabled {
 }
 
 h5.modal-title {
-    font-family: 'munro small';
+    font-family: 'munro small', Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .modal-footer {
@@ -269,7 +269,7 @@ nav a.menu:hover {
 nav a.wallet-address {
 
     text-decoration: none;
-    font-family: 'munro small';
+    font-family: 'munro small', Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.5rem;
 
     color: var(--background);
@@ -359,12 +359,12 @@ nav div.profile-img {
 }
 
 .list-item-text .asset-id{
-    font-family: 'munro small';
+    font-family: 'munro small', Verdana, Geneva, Tahoma, sans-serif;
     color: var(--white-dark)
 }
 
 .custom-badge {
-    font-family: 'munro small';
+    font-family: 'munro small', Verdana, Geneva, Tahoma, sans-serif;
     background-color: var(--dark-color-light);
     padding: 0 0.4rem 0.2rem 0.4rem;
 }
