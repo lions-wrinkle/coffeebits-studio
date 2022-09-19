@@ -399,3 +399,7 @@ footer a {
     color: var(--white-dark);
 }
 
+.hidden-pack-name {
+    transition: all .5s ease-in-out 1s;
+}
+
