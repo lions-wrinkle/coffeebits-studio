@@ -90,7 +90,7 @@ small {
     font-family: 'munro small', Verdana, Geneva, Tahoma, sans-serif;
 }
 
-strong  {
+strong {
     color: var(--bright-color);
 }
 
@@ -135,6 +135,14 @@ button:disabled {
     background-position: bottom;
 
     color: var(--white-dark);
+}
+
+button.soft-disabled:disabled {
+    background: linear-gradient(0deg, var(--gradient-color-1) 0%, var(--gradient-color-1) 25%, var(--gradient-color-2) 25%, var(--gradient-color-2) 50%, var(--gradient-color-3) 50%, var(--gradient-color-3) 75%, var(--gradient-color-4) 75%, var(--gradient-color-4) 100%);
+    background-position: bottom;
+    background-size: 100% 133%;
+    
+    opacity: 0.5;
 }
 
 .btn-myalgo {
@@ -253,7 +261,7 @@ nav a.menu {
     background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
 
 }
@@ -274,15 +282,22 @@ nav a.wallet-address {
 
     color: var(--background);
     background-color: var(--dark-color-light);
-    
+
 }
 
 nav a.wallet-address:hover {
 
     color: var(--background);
-    background-color: var(--bright-color) ;
+    background-color: var(--bright-color);
 }
 
+nav a.icon-menu img {
+    transition: all .2s ease-in-out;
+}
+
+nav a.icon-menu:hover img {
+    transform: scale(1.1);
+}
 
 
 nav div.profile-img {
@@ -310,7 +325,7 @@ nav div.profile-img {
 }
 
 .springboard-item a {
-   
+
     text-decoration: none;
     min-height: 100px;
     padding: 20px;
@@ -354,11 +369,11 @@ nav div.profile-img {
     padding: 1rem;
 }
 
-.list-item-text h4{
+.list-item-text h4 {
     margin: 0;
 }
 
-.list-item-text .asset-id{
+.list-item-text .asset-id {
     font-family: 'munro small', Verdana, Geneva, Tahoma, sans-serif;
     color: var(--white-dark)
 }
@@ -392,4 +407,7 @@ footer a {
     color: var(--white-dark);
 }
 
+.hidden-pack-name {
+    transition: all .5s ease-in-out 1s;
+}
 
