@@ -137,6 +137,14 @@ button:disabled {
     color: var(--white-dark);
 }
 
+button.soft-disabled:disabled {
+    background: linear-gradient(0deg, var(--gradient-color-1) 0%, var(--gradient-color-1) 25%, var(--gradient-color-2) 25%, var(--gradient-color-2) 50%, var(--gradient-color-3) 50%, var(--gradient-color-3) 75%, var(--gradient-color-4) 75%, var(--gradient-color-4) 100%);
+    background-position: bottom;
+    background-size: 100% 133%;
+    
+    opacity: 0.5;
+}
+
 .btn-myalgo {
     background: linear-gradient(0deg, #235fc6 0%, #235fc6 25%, #2b67d0 25%, #2b67d0 50%, #3671d7 50%, #3671d7 75%, #3f78da 75%, #3f78da 100%);
     background-size: 100% 133%;
