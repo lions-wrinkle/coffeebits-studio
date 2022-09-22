@@ -411,3 +411,44 @@ footer a {
     transition: all .5s ease-in-out 1s;
 }
 
+.placeholder-bather {
+    background-image: url('assets/default.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.placeholder-card {
+    background-image: url('assets/default-card.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.custom-tooltip {
+
+    font-family: 'munro', Verdana, Geneva, Tahoma, sans-serif;
+    --bs-tooltip-color: var(--white);
+    --bs-tooltip-bg: var(--background-dark);
+    --bs-tooltip-border-radius: 0;
+    --bs-tooltip-font-size: 1rem;
+
+}
+
+.custom-form-control {
+    background-color: var(--white);
+    color: var(--dark-color);
+}
+
+.custom-form-control:focus {
+    background-color: var(--white);
+    color: var(--dark-color);
+}
+
+.custom-form-control::placeholder {
+    color: var(--white-dark);
+}
+
+.nft-holder {
+    color: var(--bright-color);
+}
+
+
