@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkstudio=self.webpackChunkstudio||[]).push([[998],{6998:(s,t,e)=>{e.r(t),e.d(t,{BasePage:()=>i});class i{constructor(s,t,e,i){this.walletConnect=s,this.algodClient=e,this.algoIndexer=i,this.holdings=t}}}}]);
