@@ -33,6 +33,8 @@
     --gradient2-color-2: #6a3a09;
     --gradient2-color-3: #7d460e;
     --gradient2-color-4: #894d11;
+
+    --token-color: #F3B304;
 }
 
 @font-face {
@@ -278,7 +280,7 @@ nav a.wallet-address {
 
     text-decoration: none;
     font-family: 'munro small', Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 
     color: var(--background);
     background-color: var(--dark-color-light);
@@ -289,6 +291,32 @@ nav a.wallet-address:hover {
 
     color: var(--background);
     background-color: var(--bright-color);
+}
+
+nav #token-balance {
+
+    font-family: 'munro small', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3rem;
+    line-height: 1rem;
+
+    color: var(--token-color);
+
+}
+
+nav #token-balance a {
+
+    font-family: 'munro', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    line-height: 1.1rem;
+
+    color: var(--token-color);
+
+}
+
+nav #token-balance a:hover {
+
+    color: var(--bright-color);
+
 }
 
 nav a.icon-menu img {
