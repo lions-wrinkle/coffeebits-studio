@@ -143,7 +143,7 @@ button.soft-disabled:disabled {
     background: linear-gradient(0deg, var(--gradient-color-1) 0%, var(--gradient-color-1) 25%, var(--gradient-color-2) 25%, var(--gradient-color-2) 50%, var(--gradient-color-3) 50%, var(--gradient-color-3) 75%, var(--gradient-color-4) 75%, var(--gradient-color-4) 100%);
     background-position: bottom;
     background-size: 100% 133%;
-    
+
     opacity: 0.5;
 }
 
@@ -352,6 +352,15 @@ nav div.profile-img {
 
 }
 
+@media (min-width: 768px) {
+    .springboard-main-item {
+        width: 33.333%;
+
+    }
+}
+
+
+
 .springboard-item a {
 
     text-decoration: none;
@@ -478,5 +487,3 @@ footer a {
 .nft-holder {
     color: var(--bright-color);
 }
-
-
