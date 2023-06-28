@@ -163,6 +163,14 @@ button.soft-disabled:disabled {
     background-position: bottom;
 }
 
+.btn-defly {
+    color: white;
+
+    background: linear-gradient(0deg, black 0%, black 25%, black 25%, black 50%, black 50%, black 75%, black 75%, black 100%);
+    background-size: 100% 133%;
+    background-position: bottom;
+}
+
 .dark-text {
     color: var(--white-dark)
 }
